@@ -1,0 +1,1095 @@
+table {
+	border-collapse: collapse;
+	margin-top: 54px;
+	position: relative;
+}
+
+td {
+	display: inline-block;
+	width: 25%;
+	height: 475.6px;
+}
+
+
+.church-table {
+	margin-right: 25%;
+}
+
+.sybilius-table {
+	margin-left: 25%;
+	margin-right: 25%;	
+}
+
+
+.hels-table_church {
+	width: 100%;
+	height: 475.6px;
+	overflow: hidden;
+	background-image: url("../img/church_bg.jpg");
+}
+
+
+
+.hels-table_church-nick {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 250px;
+	margin-left: 10px;
+	color: white;
+}
+
+.hels-table_church-bilding {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 300px;
+	margin-left: 110px; 
+	color: white;
+}
+
+.church_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+.station_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+.atenium_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+.open-close-button {
+	border: solid 3px white;
+	border-radius: 100px;
+	position: absolute;
+	z-index: 99;
+	left: 260px;
+	top: 1890px;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+.hels-table_station {
+	width: 100%;
+	height: 475.6px;
+	overflow: hidden;
+	background-image: url("../img/station.jpg");
+}
+
+
+
+.hels-table_station-nick {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 250px;
+	margin-left: 10px;
+	color: white;
+}
+
+.hels-table_station-bilding {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 300px;
+	margin-left: 100px; 
+	color: white;
+}
+
+.station_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+
+
+
+.open-close-button2 {
+	border: solid 3px white;
+	border-radius: 100px;
+	position: absolute;
+	z-index: 99;
+	right: 560px;
+	top: 1890px;
+	width: 100px;
+	height: 100px;
+}
+
+.station-table {
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hels-table_sybilius {
+	width: 100%;
+	height: 475.6px;
+	overflow: hidden;
+}
+
+
+
+.hels-table_sybilius-nick {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 250px;
+	margin-left: 25px;
+	color: white;
+}
+
+.hels-table_sybilius-bilding {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 300px;
+	margin-left: 100px; 
+	color: white;
+}
+
+.sybilius_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+
+
+
+.open-close-button3 {
+	border: solid 3px white;
+	border-radius: 100px;
+	position: absolute;
+	z-index: 99;
+	right: 560px;
+	top: 1890px;
+	width: 100px;
+	height: 100px;
+}
+
+.sybilius-table {
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hels-table_atenium {
+	width: 100%;
+	height: 475.6px;
+	overflow: hidden;
+}
+
+
+
+.hels-table_atenium-nick {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 250px;
+	margin-left: 25px;
+	color: white;
+}
+
+.hels-table_atenium-bilding {
+	position: absolute;
+	z-index: 69;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 300px;
+	margin-left: 100px; 
+	color: white;
+}
+
+.atenium_bg {
+	position: absolute;
+	width: 24.9%;
+	height: 475.6px;
+	opacity: 0.6;
+	background-image: url("../img/church_bg.jpg");
+}
+
+
+
+
+.open-close-button3 {
+	border: solid 3px white;
+	border-radius: 100px;
+	position: absolute;
+	z-index: 99;
+	right: 560px;
+	top: 1890px;
+	width: 100px;
+	height: 100px;
+}
+
+.atenium-table {
+	z-index: -1;
+}
+
+
+.atenium {
+	width: 100%; 
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+td.church .td_popup.left.top {
+	background-image: url("../img/hels-table-church_opa.jpg") ;
+	width: 100%;
+	height: 50vh;
+}
+
+.opa {
+	position: absolute;
+	top: 1px;
+	width: 100%;
+	height: 475.6px;
+	z-index: -99;
+	background-color: #2c4293; 	
+}
+
+.city_places {
+	position: relative;
+}
+
+.city_popup.left.top {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 90vh;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	color: black;
+	background-image: url("../img/hels-table-church_opa.jpg") ;
+	transition: 1.5s;
+	z-index: 100;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.city_places.church .city_popup.left.top {
+	background-image: url("../img/hels-table-church_opa.jpg") ;
+	width: 100%;
+	height: 90vh;
+	z-index: 99;
+}
+
+.sthg_woks {
+	right: 10%;
+	top: 495px;
+	position: absolute;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
+	z-index: 99;
+	background: white;
+	line-height: 120px;
+	color: #0c69b8;
+	font-size: 32px;
+	text-align: center;
+	z-index: 120;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+
+.church_money {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 280px;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.money_info_church {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 147px;
+    top: 10px;
+    font-weight: 900;
+}
+
+.blue-screen_money_church {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 70px;	
+	top: 150px;
+}
+
+.euro {
+	position: absolute;
+	 top: 221px;
+    left: 232px;
+    height: 130px;
+    width: 130px;
+}
+
+
+.church_idk {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 480px;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.exhibition_info_church {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 147px;
+    top: 0px;
+    font-weight: 900;
+}
+
+.blue-screen_exhibition_church {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 90px;	
+	top: 350px;
+}
+
+.euro_exhibition_church {
+	position: absolute;
+	top: 390px;
+    left: 110px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+.church_idk2 {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 680px;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.appearance_info_church {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 310px;
+    top: 25px;
+    font-weight: 900;
+}
+
+.blue-screen_appearance_church {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 120px;	
+	top: 550px;
+}
+
+.euro_appearance_church {
+	position: absolute;
+	 top: 621px;
+    left: 190px;
+    height: 130px;
+    width: 130px;
+}
+
+
+
+
+.church_blue-screen {
+	position: absolute;
+	width: 400px;
+	height: 90%;
+	right: 75%;
+	top: 70px;
+	background: #0c69b8;
+	opacity: 0.9;
+}
+
+.church_blue-screen_text {
+	position: absolute;
+	font-size: 35px;
+	color: white;
+	font-weight: 900;
+	left: 75px;
+}
+
+
+
+
+
+
+
+
+td.atenium .td_popup.bottom.right {
+	background-image: url("../img/ateneum_opa.jpg") ;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.city_places {
+	position: relative;
+}
+
+.city_popup.bottom.right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 90vh;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	color: black;
+	background-image: url("../img/ateneum_opa.jpg") ;
+	transition: 1.5s;
+	z-index: 100;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.city_places.atenium .city_popup.bottom.right {
+	background-image: url("../img/ateneum_opa.jpg") ;
+	width: 100%;
+	height: 90vh;
+	z-index: 99;
+}
+
+.but_not_at_all {
+	left: 10%;
+	top: 495px;
+	position: absolute;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
+	z-index: 99;
+	background: white;
+	cursor: pointer;
+	line-height: 120px;
+	text-align: center;
+	font-weight: 900;
+	color: #0c69b8;
+	font-size: 32px;
+}
+
+.but_not_at_all:hover{ color:#00aced;}
+
+.tada{
+	color:white:;
+}
+
+.tada:hover{ color:#fff;}
+
+.a {
+	transition: 0.7s;
+	display: inline-block;;
+}
+ 
+.a:hover{background: #0c69b8;}
+
+
+.ateneum_money {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	right: 0;
+	top: 280px;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.money_info {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 100px;
+    top: 0px;
+    font-weight: 900;
+}
+
+.blue-screen_money {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 80px;	
+	top: 150px;
+}
+
+.euro {
+	position: absolute;
+	 top: 221px;
+    left: 232px;
+    height: 130px;
+    width: 130px;
+}
+
+
+.ateneum_idk {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	right: 0;
+	top: 480px;
+	background: white;
+	opacity: 0.9;
+}
+
+.exhibition_info {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 110px;
+    top: 0px;
+    font-weight: 900;
+}
+
+.blue-screen_exhibition {
+	position: absolute;
+	text-align: center;
+	font-size: 145px;
+	color: white;
+	font-weight: 900;
+	left: 170px;	
+	top: 320px;
+}
+
+.euro_exhibition {
+	position: absolute;
+	 top: 421px;
+    left: 232px;
+    height: 130px;
+    width: 130px;
+}
+
+
+
+
+
+
+.ateneum_idk2 {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	right: 0;
+	top: 680px;
+	background: white;
+	opacity: 0.9;
+}
+
+.appearance_info {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 147px;
+    top: 25px;
+    font-weight: 900;
+}
+
+.blue-screen_appearance {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 90px;	
+	top: 550px;
+}
+
+.euro_appearance {
+	position: absolute;
+	 top: 621px;
+    left: 232px;
+    height: 130px;
+    width: 130px;
+}
+
+
+
+
+.ateneum_blue-screen {
+	position: absolute;
+	width: 400px;
+	height: 90%;
+	left: 75%;
+	top: 70px;
+	background: #0c69b8;
+	opacity: 0.9;
+}
+
+.ateneum_blue-screen_text {
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	font-weight: 900;
+	left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+td.station .td_popup.top.right {
+	background-image: url("../img/station_opa.jpg") ;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.city_places {
+	position: relative;
+}
+
+.city_popup.top.right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 90vh;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	color: black;
+	background-image: url("../img/station_opa.jpg") ;
+	transition: 1.5s;
+	z-index: 100;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.city_places.station .city_popup.top.right {
+	background-image: url("../img/station_opa.jpg") ;
+	width: 100%;
+	height: 90vh;
+	z-index: 99;
+}
+
+.i_did_it_i_guess {
+	left: 10%;
+	top: 495px;
+	position: absolute;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
+	z-index: 99;
+	background: white;
+	line-height: 120px;
+	color: #0c69b8;
+	font-size: 32px;
+	text-align: center;
+	z-index: 120;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+
+
+
+
+.appearance_info_station {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 147px;
+    top: 5px;
+    font-weight: 900;
+}
+
+.money_info_station {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 147px;
+    top: 25px;
+    font-weight: 900;
+}
+
+.exhibition_info_station {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	left: 0;
+	left: 207px;
+    top: 25px;
+    font-weight: 900;
+}
+
+
+.blue-screen_money_station {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 70px;	
+	top: 150px;
+}
+
+.blue-screen_appearance_station {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 130px;	
+	top: 550px;
+}
+
+.euro_appearance_station {
+	position: absolute;
+	 top: 621px;
+    left: 202px;
+    height: 130px;
+    width: 130px;
+}
+
+.blue-screen_exhibition_station {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 90px;	
+	top: 350px;
+}
+
+
+
+
+
+
+td.sybilius .td_popup.bottom.left {
+	background-image: url("../img/sub_opa.jpg") ;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.city_places {
+	position: relative;
+}
+
+.city_popup.bottom.left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 90vh;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	color: black;
+	background-image: url("../img/sub_opa.jpg") ;
+	transition: 1.5s;
+	z-index: 100;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.city_places.sybilius .city_popup.bottom.left {
+	background-image: url("../img/sub_opa.jpg") ;
+	width: 100%;
+	height: 90vh;
+	z-index: 99;
+}
+
+.sthg_good {
+	right: 10%;
+	top: 495px;
+	position: absolute;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
+	z-index: 99;
+	background: white;
+	line-height: 120px;
+	color: #0c69b8;
+	font-size: 32px;
+	text-align: center;
+	z-index: 120;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+
+.sybilius_money {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 280px;
+	background: white;
+	opacity: 0.9;
+}
+
+
+.money_info_sybilius {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 80px;
+    top: 25px;
+    font-weight: 900;
+}
+
+.blue-screen_money_sybilius {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 70px;	
+	top: 150px;
+}
+
+.euro {
+	position: absolute;
+	 top: 221px;
+    left: 232px;
+    height: 130px;
+    width: 130px;
+}
+
+
+.sybilius_idk {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 480px;
+	background: white;
+	opacity: 0.9;
+}
+
+.exhibition_info_sybilius {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 95px;
+    top: 25px;
+    font-weight: 900;
+}
+
+.blue-screen_exhibition_sybilius {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 70px;	
+	top: 350px;
+}
+
+
+
+
+
+
+
+.sybilius_idk2 {
+	position: absolute;
+	width: 75%;
+	height: 160px;
+	left: 0;
+	top: 680px;
+	background: white;
+	opacity: 0.9;
+}
+
+.appearance_info_sybilius {
+	position: absolute;
+	margin: 0;
+	font-size: 28px;
+	color:  #0c69b8;
+	right: 260px;
+    top: 50px;
+    font-weight: 900;
+}
+
+.blue-screen_appearance_sybilius {
+	position: absolute;
+	text-align: center;
+	font-size: 115px;
+	color: white;
+	font-weight: 900;
+	left: 130px;	
+	top: 550px;
+}
+
+.euro_appearance_sybilius {
+	position: absolute;
+	 top: 621px;
+    left: 202px;
+    height: 130px;
+    width: 130px;
+}
+
+
+
+
+.sybilius_blue-screen {
+	position: absolute;
+	width: 400px;
+	height: 90%;
+	right: 75%;
+	top: 70px;
+	background: #0c69b8;
+	opacity: 0.9;
+}
+
+.sybilius_blue-screen_text {
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	font-weight: 900;
+	left: 90px;
+}

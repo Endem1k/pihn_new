@@ -1,0 +1,190 @@
+.comfort {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.place1 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	top: 32px;
+	background: #1a63a1;
+}
+
+.border_comfort {
+	position: absolute;
+	margin-top: 30px;
+	border: solid 1px #0c69b8;
+	width: 100%;
+	height: 1px;
+}
+
+.comfort-title_white {
+	position: absolute;
+	left: 42%;
+	margin: 0;
+	color: #0c69b8;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.comfort-title_blue {
+	position: absolute;
+	margin: 0;
+	left: 52%;
+	color: white;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.blue-bg {
+	position: absolute;
+	width: 50%;
+	height: 32px;
+	left: 51.5%;
+	background: #0c69b8;
+}
+
+.border_comfort_bottom {
+	position: absolute;
+	margin-bottom: 20px;
+	border: solid 1px #0c69b8;
+	width: 100%;
+	height: 1px;
+}
+
+.cozy-places1 {
+	position: absolute;
+	background-image: url("../img/park.png");
+	height: 600px;
+	width: 600px;
+	left: 10%;
+	border-radius: 100%;
+	top: 51px;
+}
+
+.comfort_park {
+	position: absolute;
+	left: 52.7%;
+	top: 120px;
+	font-size: 50px;
+	color: white;
+	margin: 0;
+}
+
+.comfort_park-text {
+	position: absolute;
+	left: 53%;
+	top: 250px;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	margin: 0;
+}
+
+.bg_cozy-places1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: black;
+	opacity: 0.3;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+  
+.place2 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+
+.cozy-places2 {
+	position: absolute;
+	background-image: url("../img/canal.png");
+	height: 600px;
+	width: 600px;
+	right: 10%;
+	border-radius: 100%;
+	top: 55px;
+}
+
+.comfort_canal {
+	position: absolute;
+	left: 3.5%;
+	top: 170px;
+	font-size: 50px;
+	color: #1a63a1;
+	margin: 0;
+}
+
+.comfort_canal-text {
+	position: absolute;
+	right: 48%;
+	font-size: 20px;
+	top: 290px;
+	color: #1a63a1;
+	text-align: left;
+	margin: 0;
+}
+
+
+
+
+
+.place3 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background: #1a63a1;
+}
+
+.cozy-places3 {
+	position: absolute;
+	background-image: url("../img/villa.png");
+	height: 600px;
+	width: 600px;
+	left: 20%;
+	border-radius: 100%;
+	top: 55px;
+}
+
+.comfort_valli {
+	position: absolute;
+	left: 3%;
+	top: 310px;
+	font-size: 75px;
+	color: white;
+	margin: 0;
+}
+
+.comfort_valli-text {
+	position: absolute;
+	right: 2%;
+	top: 220px;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	margin: 0;
+}
+
+.bg_cozy-places3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: black;
+	opacity: 0.3;
+	border-radius: 100%;
+}

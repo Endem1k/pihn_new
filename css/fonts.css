@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Rob";
+	src: url("../fonts/RobotoThin.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Robot";
+	src: url("../fonts/RobotoMedium.ttf");
+	font-weight: 1000;
+}
+
+@font-face {
+	font-family: "San";
+	src: url("../fonts/SF-UI-Text-Light.ttf");
+	font-weight: normal;
+}

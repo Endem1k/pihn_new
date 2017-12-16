@@ -1,0 +1,363 @@
+body { 
+	margin: 0 auto; 
+	font-family: "San";
+} 
+
+* {
+	box-sizing:border-box;
+}
+
+video{ 
+position:fixed; 
+z-index:-1; 
+min-width:100%; 
+min-height:100%; 
+overflow:hidden; 
+} 
+
+.karta { 
+height: 100vh;
+width: 100vw; 
+position: absolute; 
+overflow: hidden;
+} 
+
+.mir { 
+width: 100%; 
+height: 100vh; 
+} 
+
+
+.button-index {
+	position: absolute;
+	bottom: 55px;
+	opacity: 0.7;
+	height: 250px;
+	width: 100%;
+	background: white;
+	color: #a91e1e;
+	line-height: 250px;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 900;
+	transition: 0.3s;
+	z-index: 190;
+} 
+
+.button-index:hover {
+	height: 100%;
+	line-height: 371px;
+	bottom: 0;
+	color: white;
+	background: #a91e1e;
+}
+
+
+
+
+.karta_bg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: black;
+	opacity: 0.3;
+}
+
+
+.karta-ob1 {
+	position: absolute;
+	height: 100vh;
+	width: 480px;
+	z-index: 1000;
+
+}
+
+.karta-ob2 {
+	position: absolute;
+	background: white;
+	left: 480px;
+	height: 371px;
+	width: 480px;
+	color: #5b95ed;
+	z-index: 100;
+	margin: 0;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 371px;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.karta-ob2:hover {
+	background: #5b95ed;
+	color: white;
+}
+
+.button_karta {
+	position: absolute;
+	background: #5b95ed;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: 900;
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+	z-index: 900;
+}
+
+.karta-ob2_ans {
+	position: absolute;
+	height: 0;
+	width: 960px;
+	left: 480px;
+	overflow: hidden;
+	background: white;
+	z-index: 900;
+	transition: 1s;
+}
+
+.karta-ob2_ans.active {
+	position: absolute;
+	background: white;
+	height: 100vh;
+	width: 960px;
+	left: 480px;
+	z-index: 900;
+}
+
+.karta-ob2_ans-h {
+	position: absolute;
+	color: black;
+	font-size: 40px;
+	top: 100px;
+	left: 295px;
+}
+
+.karta-ob2_ans-img {
+	position: absolute;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	top: 200px;
+	left: 425px;
+	background-image: url("../img/Artem.png");
+
+}
+
+.karta-ob3 {
+	position: absolute;
+	background: white;
+	left: 960px;
+	height: 371px;
+	width: 480px;
+
+}
+
+.karta-ob4 {
+	position: absolute;
+	top: 115px;
+	left: 1440px;
+	background: white;
+	height: 371px;
+	width: 480px;
+	color: #5b95ed;
+	z-index: 1000;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 371px;
+	cursor: pointer;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.karta-ob4:hover {
+	color: white ;
+	background: #5b95ed;
+
+}
+
+.karta-ob4_contacts {
+	position: absolute;
+	height: 371px;
+	right: 480px;
+	top: 115px;
+	width: 0;
+	background: #5b95ed;
+	color: white;
+	z-index: 1000;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.karta-ob4_contacts.active {
+	width: 480px;
+	position: absolute;
+	height: 371px;
+	background: #5b95ed;
+	color: white;
+	z-index: 1000;
+}
+
+.vk {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	top: 100px;
+	line-height: 80px;
+	transition: .5s;
+	z-index: 1000;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.vk_bg {
+	position: absolute;
+	height: 100%;
+	width: 80px;
+	left: 0;
+	background: #507299;
+}
+
+.vk:hover {
+	background: white;
+	color: #5b95ed;
+}
+
+.vk_text {
+	position: absolute;
+	margin: 0;
+	top: 0px;
+	left: 100px;
+	font-size: 40px;
+}
+
+.vk_img {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.gog {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	top: 180px;
+	line-height: 80px;
+	transition: .5s;
+	z-index: 1000;
+	cursor: default;
+	text-decoration: none;
+	color: white;
+}
+
+.gog:hover {
+	background: white;
+	color: #5b95ed;
+}
+
+.gog_text {
+	position: absolute;
+	margin: 0;
+	top: 0px;
+	left: 100px;
+	font-size: 25px;
+}
+
+.gog_img {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.karta-ob5 {
+	position: absolute;
+	background: white;
+	top: 371px;
+	height: 115px;
+	width: 1440px;
+	color: black;
+	z-index: 100;
+	font-size: 70px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 115px;
+}
+
+.karta-ob6 {
+	position: absolute;
+	background: white;
+	right: 0;
+	top: 486px;
+	height: 115px;
+	width: 1440px;
+	color: #b53003;
+	z-index: 100;
+	font-size: 90px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 115px;
+}
+
+.karta-ob7 {
+	position: absolute;
+	background: white;
+	width: 160px;
+	height: 371px;
+	left: 480px;
+	bottom: 0;
+}
+
+
+
+.karta-ob8 {
+	position: absolute;
+	background: white;
+	bottom: 0;
+	left: 640px;
+	height: 371px;
+	width: 640px;
+
+}
+
+.karta-ob9 {
+	position: absolute;
+	background: white;
+	bottom: 0;
+	right: 0;
+	height: 371px;
+	width: 640px;
+	overflow: hidden;
+}
+
+.karta-ob10 {
+	position: absolute;
+	background: white;
+	top: 0;
+	right: 0;
+	width: 480px;
+	height: 115px;
+}
+
+
+
+.text_index1 {
+	position: absolute;
+	margin: 0;
+	color: black;
+	transform: skewX(-90deg);
+	font-size: 70px;
+	font-weight: 900;
+	z-index: 190;
+	left: 0;
+	top: 0;
+}

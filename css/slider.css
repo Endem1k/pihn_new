@@ -1,0 +1,112 @@
+
+.slide .container {
+	padding: 800px 0 100px 100px;
+}
+
+.slide {
+	background-size: cover;
+	background-position-y: -100px; 
+}
+
+.slider {
+	background-size: cover;
+}
+
+.slide__1 {
+	background-image: url("../img/helsinki-bg1.jpg");
+}
+
+.slide__2 {
+	background-image: url("../img/helsinki-bg3.jpg");
+}
+
+.slide__3 {
+	background-image: url("../img/helsinki-bg2.jpg");
+}
+
+.slide__4 {
+	background-image: url("../img/helsinki-bg4.jpg");
+}
+
+.slide__5 {
+	background-image: url("../img/helsinki-bg5.jpg");
+}
+
+.slide__6 {
+	background-image: url("../img/helsinki-bg6.jpg");
+}
+
+.slide__7 {
+	background-image: url("../img/helsinki-bg7.jpg");
+}
+
+
+.main-slider {
+	position: relative;
+	height: 900px;
+	overflow: hidden;
+}
+
+
+
+.main-slider-container {
+	position: relative;
+}
+
+
+
+.slide_conten-content1 {
+	position: absolute;
+	top: 0;
+	width: 545px;
+    border-top: 140px solid #0c69b8;
+    border-left: 70px solid #0c69b8;
+    border-right: 30px solid transparent;
+    border-bottom: 440px solid transparent;
+    z-index: 190;
+}
+
+.slide_conten-contaent2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 545px;
+    border-top: 140px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 30px solid #0c69b8;
+    border-bottom: 300px solid #0c69b8;
+}
+
+.main-slider-container {
+	position: relative;
+}
+
+.slide_conten-contaent2_h {
+	position: absolute;
+	top: 52px;
+    left: 23px;
+    font-size: 53px;
+	color: white;
+	font-weight: 900;
+	z-index: 910;
+}
+
+.slide_conten-contaent2_2h {
+	position: absolute;
+	top: 112px;
+    left: 203px;
+    font-size: 53px;
+	color: white;
+	font-weight: 900;
+	z-index: 910;
+}
+
+.slide_conten-contaent2_text {
+	position: absolute;
+	font-size: 15px;
+    top: 58px;
+    left: 110px;
+	color: white;
+	font-weight: 900;
+	z-index: 170;
+}

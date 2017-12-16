@@ -1,0 +1,327 @@
+
+.over_title {
+	width: 100%;
+	height: 70px;
+	background: #0c69b8;
+}
+
+.places_over {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+.over_title-text {
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 0;
+	margin-top: 10px;
+	left: 45%;
+}
+
+.over-place1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 25%;
+	background-color: #84a7e0;
+	height: 100vh;
+	color: white;
+	transform: skewX(-20deg);
+	transition: .5s;
+	overflow: hidden;
+}
+
+.over-place1_bg {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	right: 0%;
+	height: 50vh;
+	width: 120%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/event.png");
+	transform: skewX(20deg);
+	z-index: 100;
+}
+
+.over-place1_bg.blue {
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	height: 50vh;
+	width: 150%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/taste.png");
+	transform: skewX(20deg);
+	z-index: 100;
+}
+
+.over-place1_bg.green {
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	height: 50vh;
+	width: 150%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/runokuu.png");
+	transform: skewX(20deg);
+	z-index: 100;
+}
+
+.over-place1_bg.yellow {
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	height: 50vh;
+	width: 150%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/design.png");
+	transform: skewX(20deg);
+	z-index: 100;
+}
+
+.over-place1_-opacity {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #84a7e0;;
+	opacity: 0.5;
+	z-index: 100;
+}
+
+.over-place_text.yellow {
+	position: absolute;
+	top: 20%;
+	font-size: 50px;
+	color: white;
+	left: 10%;
+	transform: skewX(20deg);
+	font-weight: 900;
+	z-index: 190;
+}
+
+.over-place1.blue {
+	background-color: #588de2;
+	left: 25%;
+}
+
+.over-place1.green {
+	background-color: #3873d1;
+	left: 50%;
+}
+
+.over-place1.yellow {
+	background-color: #2165d1;
+	left: 75%;
+}
+
+.over-place1:hover {
+	left: calc(-5%);
+	width: 50%;
+	z-index: 190;
+	background-color: #0545aa;
+}
+
+.over-place1.blue:hover {
+	left: calc(15%);
+	width: 50%;
+	z-index: 190;
+}
+
+.over-place1.green:hover {
+	left: calc(35%);
+	width: 50%;
+	z-index: 190;
+}
+
+.over-place1.yellow:hover {
+	left: calc(55%);
+	width: 50%;
+	z-index: 190;
+}
+
+.over-place_text {
+	position: absolute;
+	top: 20%;
+	font-size: 50px;
+	color: white;
+	left: 20%;
+	transform: skewX(20deg);
+	font-weight: 900;
+	z-index: 190;
+}
+
+.over-place_text2 {
+	position: absolute;
+	top: 25%;
+	font-size: 50px;
+	color: white;
+	left: 34%;
+	transform: skewX(20deg);
+	font-weight: 900;	
+	z-index: 190;
+}
+
+
+
+.over-place_text2.yellow {
+	position: absolute;
+	top: 25%;
+	font-size: 50px;
+	color: white;
+	left: 26%;
+	transform: skewX(20deg);
+	font-weight: 900;	
+	z-index: 190;
+}
+
+.over-place_button {
+	position: absolute;
+	border: solid white 2px;
+	height: 50px;
+	width: 110%;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	transform: skewX(20deg);
+	font-weight: 900;
+	font-size: 20px;
+	top: 40%;
+	left: -2%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.over-place_button:hover {
+	color: #0545aa ;
+	background-color: transparent;
+
+}
+
+.over-place_button:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+
+.over-place_button:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #0545aa ;
+	background: white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+.over-place_button.blue {
+	position: absolute;
+	border: solid white 2px;
+	height: 50px;
+	width: 110%;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	transform: skewX(20deg);
+	font-weight: 900;
+	font-size: 20px;
+	top: 44%;
+	left: -2%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.over-place_button.blue:hover {
+	color: #0545aa;
+	background-color: transparent;
+
+}
+
+.over-place_button.blue:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+
+.over-place_button.blue:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #0545aa;
+	background: white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+.over-place_button.yellow {
+	position: absolute;
+	border: solid white 2px;
+	height: 50px;
+	width: 110%;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	transform: skewX(20deg);
+	font-weight: 900;
+	font-size: 20px;
+	top: 44%;
+	left: -2%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.over-place_button.yellow:hover {
+	color: #0545aa;
+	background-color: transparent;
+
+}
+
+.over-place_button.yellow:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+
+.over-place_button.yellow:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #0545aa;
+	background: white;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+.idk-wii {
+	position: absolute;
+	bottom: -200px;
+	height: 200px;
+	width: 100%;
+	background: #0c69b8;
+}

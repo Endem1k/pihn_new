@@ -1,0 +1,78 @@
+.map_and_city {
+	position: relative;
+	height: 50vh;
+	width: 100%;
+}
+
+.map-in-city {
+	position: absolute;
+	height: 600px
+;	width: 50%;
+}
+
+.map-in-city_img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.red_border {
+	position: absolute;
+	background: #84a7e0;
+	height: 200px;
+	top: 250px;
+	width: 100%;
+	font-size: 180px;
+	color: white;
+	text-align: center;
+	line-height: 200px;
+	font-weight: 900;
+}
+
+
+.city_for_city {
+	position: absolute;
+	height: 600px;
+	width: 50%;
+	right: 0;
+}
+
+.city-for-city_img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.city-for-city_name {
+	position: absolute;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	width: 100%;
+	top: 300px;
+	z-index: 190;
+}
+
+.city-for-city_name:after{
+	position: absolute;
+	display: inline-block;
+	content: '';
+	border-bottom: 2px solid white;
+	width: 70%;
+	left: 25%;
+	height: 2px;
+	top: 0px;
+	z-index: 190;
+}
+
+.city-for-city_name:before{
+	position: absolute;
+	display: inline-block;
+	content: '';
+	border-bottom: 2px solid white;
+	width: 70%;
+	right: 25%;
+	height: 2px;
+	bottom: 0;
+	z-index: 190;
+}

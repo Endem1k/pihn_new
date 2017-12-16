@@ -1,0 +1,1070 @@
+body { 
+	font-family: "San";
+	margin: 0 ; 
+}
+
+.container {
+	width: 100%;
+}
+
+.map {
+	z-index: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.city {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.city.hels {
+	left: 53%;
+	top: 31%;
+}
+
+.map-point_after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#405bc2 50%, #2c4293 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#37a0dd 50%, #0476b8 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-image: url(./img/map-city-hels.jpg);
+	overflow: hidden;
+	transition: .4s;
+}
+
+.city.active .point-dropdown {
+	height: 133px;
+}
+
+.map-point_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name,
+.city-desc {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point:hover .map-point_after {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point:hover .map-point_front {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name {
+	width: 120px;
+	top: 3%;
+	background-color: white;
+
+}
+
+.city-name_text {
+	margin: 0;
+	font-size: 27px;
+	color: #2c4293;
+
+}
+
+.city-desc {
+	width: 220px;
+	top: 31%;
+
+}
+
+.city-desc_text {
+	background-color: white;
+	font-size: 16px;
+	font-weight: 900;
+	color: #2c4293;
+	margin: 0;
+}
+
+.city-contry {
+	position: absolute;
+	z-index: 99;
+	right: 11%;
+	top: 13%;
+	width: 60px;
+	height: 100px;
+}
+
+.city-contry_img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.city.stock {
+	left: 51%;
+	top: 32%;
+}
+
+.map-point_after.stock {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#66177a 50%, #801d99 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.stock  {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg, #a529c4 50%, #a442f4 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.stock  {
+	position: absolute;
+	left: 37px;
+	top: 20px;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.stock  {
+	height: 133px;
+}
+
+.map-point_bg.stock  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.stock ,
+.city-desc.stock  {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.stock :hover .map-point_after.stock  {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.stock :hover .map-point_front.stock  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.stock  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.stock  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+.city.norv {
+	left: 49.3%;
+	top: 32%;
+}
+
+.map-point_after.norv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#869124 50%, #646d17 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.map-point_front.norv  {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#bacc1a 50%,  #8c9918 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 790;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.norv  {
+	position: absolute;
+	left: 37px;
+	top: 30px;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.norv  {
+	height: 133px;
+}
+
+.map-point_bg.norv  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.norv ,
+.city-desc.norv  {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.norv :hover .map-point_after.norv  {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.norv :hover .map-point_front.norv  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.norv  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.norv  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+.city.edin {
+	left: 46%;
+	top: 35%;
+}
+
+.map-point_after.edin {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#095930 50%, #117240 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.edin  {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#23a863 50%, #35ba75 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.edin  {
+	position: absolute;
+	left: -380px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.edin  {
+	height: 133px;
+}
+
+.map-point_bg.edin  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.edin ,
+.city-desc.edin {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.edin :hover .map-point_after.edin {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.edin :hover .map-point_front.edin  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.edin  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.edin  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+
+.city.san {
+	left: 16%;
+	top: 44%;
+}
+
+.map-point_after.san {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg, #dbd213 50%,#ada70a  50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.san {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#fff972 50%, #ede617 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: #6d6d6b;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.san {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.san  {
+	height: 133px;
+}
+
+.map-point_bg.san  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.san ,
+.city-desc.san {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.san :hover .map-point_after.san {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.san :hover .map-point_front.san  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.san  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.san  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+.city.rio {
+	left: 34.5%;
+	top: 69%;
+}
+
+.map-point_after.rio {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#044f06 50%, #027a05 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.rio {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#20d826 50%, #17a51b 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.rio {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.rio  {
+	height: 133px;
+}
+
+.map-point_bg.rio  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.rio ,
+.city-desc.rio {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.rio :hover .map-point_after.rio {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.rio :hover .map-point_front.rio  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.rio  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.rio  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+
+.city.seul {
+	left: 78.3%;
+	top: 44%;
+}
+
+.map-point_after.seul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg, #b22003 50%,#8c1801  50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.seul {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#ff3b14 50%, #d32300 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.seul {
+	position: absolute;
+	left: -380px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.seul  {
+	height: 133px;
+}
+
+.map-point_bg.seul  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.seul ,
+.city-desc.seul {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.seul :hover .map-point_after.seul {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.seul :hover .map-point_front.seul  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.seul  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.seul  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+.city.kio {
+	left: 80.3%;
+	top: 45%;
+}
+
+.map-point_after.kio {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#b20768 50%, #84014b 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.kio {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#f97fc4 50%, #f25cb0 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.kio {
+	position: absolute;
+	left: 17px;
+	top: 40px;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.kio  {
+	height: 133px;
+}
+
+.map-point_bg.kio  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.kio ,
+.city-desc.kio {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.kio :hover .map-point_after.kio {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.kio :hover .map-point_front.kio  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.kio  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.kio  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+
+.city.mel {
+	left: 82.7%;
+	top: 76%;
+}
+
+.map-point_after.mel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background: linear-gradient(225deg,#ce7c02 50%, #c17401 50%);
+	background-position: 100%;
+    background-size: 400%;	
+	z-index: 69; 
+	transition: background 300ms ease-in-out, all 1s;
+	cursor: pointer;
+}
+
+.map-point_front.mel {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	border-radius: 100px;
+	background: linear-gradient(410deg,#ffa621 50%, #ed9107 50%);
+	background-position: 100%;
+    background-size: 400%;
+	text-align: center;
+	z-index: 79;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.point-dropdown.mel {
+	position: absolute;
+	left: -380px;
+	top: 0;
+	width: 353px;
+	height: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: black;
+	overflow: hidden;
+	transition: .4s;
+	z-index: 100;
+}
+
+.city.active.point-dropdown.mel  {
+	height: 133px;
+}
+
+.map-point_bg.mel  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	background-color: black;
+	z-index: 1;
+}
+
+.city-name.mel ,
+.city-desc.mel {
+	z-index: 99;
+	position: absolute;
+}
+
+.map-point.mel :hover .map-point_after.mel {
+	transform: scale(1.8);
+	background-position: 0;
+}
+
+.map-point.mel :hover .map-point_front.mel  {
+	transform: scale(1.5);
+	background-position: 0;
+}
+
+
+.city-name.mel  {
+	width: 200px;
+	top: 35%;
+	left: 20%;
+	background: none;
+}
+
+.city-name_text.mel  {
+	margin: 0;
+	font-size: 27px;
+	color: white;
+
+}
+
+
+
+.map-line {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 30px;
+	left: 52%;
+	top: 32.5%;
+	transform: rotate(-20deg);
+}
+
+.map-line.stock{
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 30px;
+	left: 50%;
+	top: 33%;
+	transform: rotate(0deg);
+}
+
+.map-line.norv{
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 50px;
+	left: 47%;
+	top: 34.6%;
+	transform: rotate(-27deg);
+}
+
+.map-line.edin {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 560px;
+    left: 17%;
+    top: 40.5%;
+    transform: rotate(-9deg)
+}
+
+.map-line.san {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 430px;
+    left: 14.5%;
+    top: 57.5%;
+    transform: rotate(34deg);
+}
+
+.map-line.rio {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 880px;
+    left: 34%;
+    top: 57.5%;
+    transform: rotate(-16.3deg);
+}
+
+
+.map-line.seul {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 30px;
+    left: 79%;
+    top: 45.5%;
+    transform: rotate(18deg);
+}
+
+.map-line.kio {
+	position: absolute;
+	border-bottom: solid 3px #5d9df7;
+	width: 300px;
+    left: 74.3%;
+    top: 61.5%;
+    transform: rotate(81.7deg);
+}
+
+
+.main_link {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 150px;
+	width: 150px;
+	cursor: pointer;
+	background: white;
+	overflow: hidden;
+}
+
+.main_link_never {
+	position: absolute;
+	font-size: 120px;
+	color: #b53003;
+	margin: 0;
+	font-weight: 900;
+	left: 25px;
+	top: -5px;
+}
+
+.main_link_land {
+	position: absolute;
+	font-size: 120px;
+	color: #b53003;
+	left: 57px;
+	top: 10px;
+	margin: 0;
+	z-index: 100;
+	font-weight: 900;
+}
