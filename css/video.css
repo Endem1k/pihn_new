@@ -16,10 +16,10 @@ overflow:hidden;
 } 
 
 .karta { 
-height: 100vh;
-width: 100vw; 
-position: absolute; 
-overflow: hidden;
+	height: 100vh;
+	width: 100vw; 
+	position: absolute; 
+	overflow: hidden;
 } 
 
 .mir { 
@@ -69,7 +69,7 @@ height: 100vh;
 .karta-ob1 {
 	position: absolute;
 	height: 100vh;
-	width: 480px;
+	width: 25%;
 	z-index: 1000;
 
 }
@@ -77,9 +77,9 @@ height: 100vh;
 .karta-ob2 {
 	position: absolute;
 	background: white;
-	left: 480px;
-	height: 371px;
-	width: 480px;
+	left: 25%;
+	height: 38.2%;
+	width: 25%;
 	color: #5b95ed;
 	z-index: 100;
 	margin: 0;
@@ -96,12 +96,20 @@ height: 100vh;
 	color: white;
 }
 
+.for_scroll {
+	position: absolute;
+	overflow-y: scroll;
+	top: 27%;
+	height: 63%;
+	width: 100%;
+}
+
 .button_karta {
 	position: absolute;
 	background: #5b95ed;
 	bottom: 0;
 	width: 100%;
-	height: 100px;
+	height: 10%;
 	text-align: center;
 	line-height: 100px;
 	font-weight: 900;
@@ -111,11 +119,44 @@ height: 100vh;
 	z-index: 900;
 }
 
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#ecedee
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#2b76ef;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#56999f;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 10px;
+}
+
 .karta-ob2_ans {
 	position: absolute;
 	height: 0;
-	width: 960px;
-	left: 480px;
+	width: 50%;
+	left: 25%;
 	overflow: hidden;
 	background: white;
 	z-index: 900;
@@ -126,46 +167,86 @@ height: 100vh;
 	position: absolute;
 	background: white;
 	height: 100vh;
-	width: 960px;
-	left: 480px;
+	width: 50%;
+	left: 25%;
 	z-index: 900;
 }
 
 .karta-ob2_ans-h {
 	position: absolute;
-	color: black;
-	font-size: 40px;
-	top: 100px;
-	left: 295px;
+	color: white;
+	font-size: 90px;
+	top: 2%;
+	left: 33%;
+	margin: 0;
+	z-index: 900;
+}
+
+.karta-ob2_ans_p-blue_bg_for_me {
+	position: absolute;
+	width: 100%;
+	height: 260px;
+	background: #5b95ed;
+	z-index: 900;
 }
 
 .karta-ob2_ans-img {
 	position: absolute;
 	border-radius: 100px;
-	height: 100px;
-	width: 100px;
-	top: 200px;
-	left: 425px;
-	background-image: url("../img/Artem.png");
+	height: 220px;
+	width: 220px;
+	top: 2.5%;
+	left: 5%;
+	z-index: 900;
+	background-image: url("../img/Artem_2_2.jpg") 
+}
 
+.karta-ob2_ans_p {
+	position: absolute;
+	color: #0c4cb2;
+	font-size: 28px;
+	top: 1%;
+	left: 8%;
+	text-align: center;
+	margin: 0;
+	z-index: 800;
+}
+
+.karta-ob2_ans_p-blue_bg {
+	position: absolute;
+	top: 23%;
+	width: 100%;
+	height: 70px;
+	background: #5b95ed;
+	z-index: 850;
+}
+
+.karta-ob2_ans_p-blue {
+	position: absolute;
+	color: white;
+	top: 0;
+	font-size: 28px;
+	left: 17%;
+	margin: 0;
+	text-align: center;
 }
 
 .karta-ob3 {
 	position: absolute;
 	background: white;
-	left: 960px;
-	height: 371px;
-	width: 480px;
-
+	left: 50%;
+	height: 38.2%;
+	width: 25%;
+	overflow: hidden;
 }
 
 .karta-ob4 {
 	position: absolute;
-	top: 115px;
-	left: 1440px;
+	top: 11.8%;
+	left: 75%;
 	background: white;
-	height: 371px;
-	width: 480px;
+	height: 38.2%;
+	width: 25%;
 	color: #5b95ed;
 	z-index: 1000;
 	font-size: 50px;
@@ -185,9 +266,9 @@ height: 100vh;
 
 .karta-ob4_contacts {
 	position: absolute;
-	height: 371px;
-	right: 480px;
-	top: 115px;
+	height: 38.2%;
+	right: 25%;
+	top: 11.8%;
 	width: 0;
 	background: #5b95ed;
 	color: white;
@@ -197,9 +278,9 @@ height: 100vh;
 }
 
 .karta-ob4_contacts.active {
-	width: 480px;
+	width: 25%;
 	position: absolute;
-	height: 371px;
+	height: 38.2%;
 	background: #5b95ed;
 	color: white;
 	z-index: 1000;
@@ -208,9 +289,9 @@ height: 100vh;
 .vk {
 	position: absolute;
 	width: 100%;
-	height: 80px;
+	height: 22%;
 	left: 0px;
-	top: 100px;
+	top: 28%;
 	line-height: 80px;
 	transition: .5s;
 	z-index: 1000;
@@ -236,8 +317,8 @@ height: 100vh;
 	position: absolute;
 	margin: 0;
 	top: 0px;
-	left: 100px;
-	font-size: 40px;
+	left: 88px;
+	font-size: 30px;
 }
 
 .vk_img {
@@ -249,9 +330,9 @@ height: 100vh;
 .gog {
 	position: absolute;
 	width: 100%;
-	height: 80px;
+	height: 21.4%;
 	left: 0px;
-	top: 180px;
+	top: 50%;
 	line-height: 80px;
 	transition: .5s;
 	z-index: 1000;
@@ -269,7 +350,7 @@ height: 100vh;
 	position: absolute;
 	margin: 0;
 	top: 0px;
-	left: 100px;
+	left: 88px;
 	font-size: 25px;
 }
 
@@ -282,38 +363,39 @@ height: 100vh;
 .karta-ob5 {
 	position: absolute;
 	background: white;
-	top: 371px;
-	height: 115px;
-	width: 1440px;
+	top: 38.2%;
+	height: 11.8%;
+	width: 75%;
+	left: 25%;
 	color: black;
 	z-index: 100;
 	font-size: 70px;
 	font-weight: 900;
-	text-align: center;
-	line-height: 115px;
+	text-align: left;
+	line-height: 100%;
 }
 
 .karta-ob6 {
 	position: absolute;
 	background: white;
 	right: 0;
-	top: 486px;
-	height: 115px;
-	width: 1440px;
+	top: 50%;
+	height: 11.8%;
+	width: 75%;
 	color: #b53003;
 	z-index: 100;
 	font-size: 90px;
 	font-weight: 900;
 	text-align: center;
-	line-height: 115px;
+	line-height: 100%;
 }
 
 .karta-ob7 {
 	position: absolute;
 	background: white;
-	width: 160px;
-	height: 371px;
-	left: 480px;
+	height: 38.2%;
+	width: 8.4%;
+	left: 25%;
 	bottom: 0;
 }
 
@@ -323,9 +405,9 @@ height: 100vh;
 	position: absolute;
 	background: white;
 	bottom: 0;
-	left: 640px;
+	left: 33.35%;
 	height: 371px;
-	width: 640px;
+	width: 33.34%;
 
 }
 
@@ -334,8 +416,8 @@ height: 100vh;
 	background: white;
 	bottom: 0;
 	right: 0;
-	height: 371px;
-	width: 640px;
+	height: 38.2%;
+	width: 33.35%;
 	overflow: hidden;
 }
 
@@ -344,20 +426,8 @@ height: 100vh;
 	background: white;
 	top: 0;
 	right: 0;
-	width: 480px;
-	height: 115px;
+	width: 25%;
+	height: 11.8%;
 }
 
 
-
-.text_index1 {
-	position: absolute;
-	margin: 0;
-	color: black;
-	transform: skewX(-90deg);
-	font-size: 70px;
-	font-weight: 900;
-	z-index: 190;
-	left: 0;
-	top: 0;
-}
